@@ -1,0 +1,895 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="inception_v3/activation_23/Relu" out_port_id="0"/>
+		<IR id="52" name="inception_v3/activation_23/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_88/Relu" out_port_id="0"/>
+		<IR id="200" name="inception_v3/activation_88/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_2/BiasAdd" out_port_id="0"/>
+		<IR id="224" name="dense_2/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_82/Relu" out_port_id="0"/>
+		<IR id="185" name="inception_v3/activation_82/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_71/Relu" out_port_id="0"/>
+		<IR id="160" name="inception_v3/activation_71/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_51/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="115" name="inception_v3/conv2d_51/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_5/Relu" out_port_id="0"/>
+		<IR id="11" name="inception_v3/activation_5/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_80/Relu" out_port_id="0"/>
+		<IR id="180" name="inception_v3/activation_80/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_8/AvgPool" out_port_id="0"/>
+		<IR id="191" name="inception_v3/average_pooling2d_8/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_16/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="35" name="inception_v3/conv2d_16/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_14/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="31" name="inception_v3/conv2d_14/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dense_1/Relu" out_port_id="0"/>
+		<IR id="223" name="dense_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed4/concat" out_port_id="0"/>
+		<IR id="92" name="inception_v3/mixed4/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_44/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="99" name="inception_v3/conv2d_44/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_92/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="208" name="inception_v3/conv2d_92/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_3/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="5" name="inception_v3/conv2d_3/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/max_pooling2d_1/MaxPool" out_port_id="0"/>
+		<IR id="7" name="inception_v3/max_pooling2d_1/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_65/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="145" name="inception_v3/conv2d_65/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_77/Relu" out_port_id="0"/>
+		<IR id="174" name="inception_v3/activation_77/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_21/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="47" name="inception_v3/conv2d_21/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_69/Relu" out_port_id="0"/>
+		<IR id="154" name="inception_v3/activation_69/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_18/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="39" name="inception_v3/conv2d_18/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_21/Relu" out_port_id="0"/>
+		<IR id="48" name="inception_v3/activation_21/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_4/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="8" name="inception_v3/conv2d_4/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_2/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="3" name="inception_v3/conv2d_2/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed3/concat" out_port_id="0"/>
+		<IR id="70" name="inception_v3/mixed3/concat" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_64/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="143" name="inception_v3/conv2d_64/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_75/Relu" out_port_id="0"/>
+		<IR id="168" name="inception_v3/activation_75/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_89/Relu" out_port_id="0"/>
+		<IR id="202" name="inception_v3/activation_89/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_88/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="199" name="inception_v3/conv2d_88/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_53/Relu" out_port_id="0"/>
+		<IR id="120" name="inception_v3/activation_53/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_45/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="101" name="inception_v3/conv2d_45/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_54/Relu" out_port_id="0"/>
+		<IR id="122" name="inception_v3/activation_54/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_56/Relu" out_port_id="0"/>
+		<IR id="126" name="inception_v3/activation_56/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_29/Relu" out_port_id="0"/>
+		<IR id="66" name="inception_v3/activation_29/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_85/Relu" out_port_id="0"/>
+		<IR id="193" name="inception_v3/activation_85/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_25/Relu" out_port_id="0"/>
+		<IR id="56" name="inception_v3/activation_25/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_20/Relu" out_port_id="0"/>
+		<IR id="46" name="inception_v3/activation_20/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_34/Relu" out_port_id="0"/>
+		<IR id="78" name="inception_v3/activation_34/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_70/Relu" out_port_id="0"/>
+		<IR id="157" name="inception_v3/activation_70/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_19/Relu" out_port_id="0"/>
+		<IR id="43" name="inception_v3/activation_19/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_67/Relu" out_port_id="0"/>
+		<IR id="150" name="inception_v3/activation_67/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_13/Relu" out_port_id="0"/>
+		<IR id="30" name="inception_v3/activation_13/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_75/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="167" name="inception_v3/conv2d_75/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_20/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="45" name="inception_v3/conv2d_20/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_12/Relu" out_port_id="0"/>
+		<IR id="27" name="inception_v3/activation_12/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed9_0/concat" out_port_id="0"/>
+		<IR id="181" name="inception_v3/mixed9_0/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_1/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="1" name="inception_v3/conv2d_1/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_94/Relu" out_port_id="0"/>
+		<IR id="215" name="inception_v3/activation_94/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_74/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="165" name="inception_v3/conv2d_74/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_73/Relu" out_port_id="0"/>
+		<IR id="164" name="inception_v3/activation_73/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_71/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="159" name="inception_v3/conv2d_71/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_33/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="75" name="inception_v3/conv2d_33/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_44/Relu" out_port_id="0"/>
+		<IR id="100" name="inception_v3/activation_44/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_81/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="182" name="inception_v3/conv2d_81/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_33/Relu" out_port_id="0"/>
+		<IR id="76" name="inception_v3/activation_33/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_56/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="125" name="inception_v3/conv2d_56/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_53/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="119" name="inception_v3/conv2d_53/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_25/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="55" name="inception_v3/conv2d_25/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_14/Relu" out_port_id="0"/>
+		<IR id="32" name="inception_v3/activation_14/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_52/Relu" out_port_id="0"/>
+		<IR id="118" name="inception_v3/activation_52/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_63/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="141" name="inception_v3/conv2d_63/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_36/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="81" name="inception_v3/conv2d_36/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_84/Relu" out_port_id="0"/>
+		<IR id="189" name="inception_v3/activation_84/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_6/AvgPool" out_port_id="0"/>
+		<IR id="133" name="inception_v3/average_pooling2d_6/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_78/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="175" name="inception_v3/conv2d_78/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/max_pooling2d_2/MaxPool" out_port_id="0"/>
+		<IR id="12" name="inception_v3/max_pooling2d_2/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_54/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="121" name="inception_v3/conv2d_54/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_30/Relu" out_port_id="0"/>
+		<IR id="68" name="inception_v3/activation_30/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed5/concat" out_port_id="0"/>
+		<IR id="114" name="inception_v3/mixed5/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_59/Relu" out_port_id="0"/>
+		<IR id="132" name="inception_v3/activation_59/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_91/Relu" out_port_id="0"/>
+		<IR id="207" name="inception_v3/activation_91/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_28/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="63" name="inception_v3/conv2d_28/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_9/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="19" name="inception_v3/conv2d_9/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_16/Relu" out_port_id="0"/>
+		<IR id="36" name="inception_v3/activation_16/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_7/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="15" name="inception_v3/conv2d_7/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_37/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="83" name="inception_v3/conv2d_37/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_55/Relu" out_port_id="0"/>
+		<IR id="124" name="inception_v3/activation_55/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_4/Relu" out_port_id="0"/>
+		<IR id="9" name="inception_v3/activation_4/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_49/Relu" out_port_id="0"/>
+		<IR id="110" name="inception_v3/activation_49/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed1/concat" out_port_id="0"/>
+		<IR id="44" name="inception_v3/mixed1/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_6/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="13" name="inception_v3/conv2d_6/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_84/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="188" name="inception_v3/conv2d_84/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_9/AvgPool" out_port_id="0"/>
+		<IR id="213" name="inception_v3/average_pooling2d_9/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_50/Relu" out_port_id="0"/>
+		<IR id="113" name="inception_v3/activation_50/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_8/Relu" out_port_id="0"/>
+		<IR id="18" name="inception_v3/activation_8/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_40/Relu" out_port_id="0"/>
+		<IR id="91" name="inception_v3/activation_40/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_32/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="73" name="inception_v3/conv2d_32/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_52/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="117" name="inception_v3/conv2d_52/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_93/Relu" out_port_id="0"/>
+		<IR id="211" name="inception_v3/activation_93/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_49/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="109" name="inception_v3/conv2d_49/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_47/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="105" name="inception_v3/conv2d_47/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_58/Relu" out_port_id="0"/>
+		<IR id="130" name="inception_v3/activation_58/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_9/Relu" out_port_id="0"/>
+		<IR id="20" name="inception_v3/activation_9/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_15/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="33" name="inception_v3/conv2d_15/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_66/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="147" name="inception_v3/conv2d_66/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3_input" out_port_id="0"/>
+		<IR id="0" name="inception_v3_input" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_43/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="97" name="inception_v3/conv2d_43/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dropout_1/Identity" out_port_id="0"/>
+		<IR id="221" name="global_average_pooling2d_1/Mean/FinalReshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="global_average_pooling2d_1/Mean" out_port_id="0"/>
+		<IR id="221" name="global_average_pooling2d_1/Mean/FinalReshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_72/Relu" out_port_id="0"/>
+		<IR id="162" name="inception_v3/activation_72/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_73/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="163" name="inception_v3/conv2d_73/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_10/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="21" name="inception_v3/conv2d_10/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_81/Relu" out_port_id="0"/>
+		<IR id="183" name="inception_v3/activation_81/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_79/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="177" name="inception_v3/conv2d_79/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_58/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="129" name="inception_v3/conv2d_58/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_15/Relu" out_port_id="0"/>
+		<IR id="34" name="inception_v3/activation_15/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_55/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="123" name="inception_v3/conv2d_55/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_38/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="85" name="inception_v3/conv2d_38/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_11/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="23" name="inception_v3/conv2d_11/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_3/Relu" out_port_id="0"/>
+		<IR id="6" name="inception_v3/activation_3/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_78/Relu" out_port_id="0"/>
+		<IR id="176" name="inception_v3/activation_78/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed10/concat" out_port_id="0"/>
+		<IR id="216" name="inception_v3/mixed10/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_60/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="134" name="inception_v3/conv2d_60/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_39/Relu" out_port_id="0"/>
+		<IR id="88" name="inception_v3/activation_39/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_27/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="61" name="inception_v3/conv2d_27/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_92/Relu" out_port_id="0"/>
+		<IR id="209" name="inception_v3/activation_92/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed9_1/concat" out_port_id="0"/>
+		<IR id="203" name="inception_v3/mixed9_1/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_76/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="169" name="inception_v3/conv2d_76/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_17/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="37" name="inception_v3/conv2d_17/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_19/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="42" name="inception_v3/conv2d_19/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_7/Relu" out_port_id="0"/>
+		<IR id="16" name="inception_v3/activation_7/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_2/AvgPool" out_port_id="0"/>
+		<IR id="41" name="inception_v3/average_pooling2d_2/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_8/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="17" name="inception_v3/conv2d_8/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_93/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="210" name="inception_v3/conv2d_93/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_38/Relu" out_port_id="0"/>
+		<IR id="86" name="inception_v3/activation_38/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_87/Relu" out_port_id="0"/>
+		<IR id="198" name="inception_v3/activation_87/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_66/Relu" out_port_id="0"/>
+		<IR id="148" name="inception_v3/activation_66/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_61/Relu" out_port_id="0"/>
+		<IR id="138" name="inception_v3/activation_61/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_36/Relu" out_port_id="0"/>
+		<IR id="82" name="inception_v3/activation_36/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_60/Relu" out_port_id="0"/>
+		<IR id="135" name="inception_v3/activation_60/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_86/Relu" out_port_id="0"/>
+		<IR id="196" name="inception_v3/activation_86/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_69/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="153" name="inception_v3/conv2d_69/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_26/Relu" out_port_id="0"/>
+		<IR id="59" name="inception_v3/activation_26/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_68/Relu" out_port_id="0"/>
+		<IR id="152" name="inception_v3/activation_68/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_34/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="77" name="inception_v3/conv2d_34/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_13/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="29" name="inception_v3/conv2d_13/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_12/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="26" name="inception_v3/conv2d_12/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_3/AvgPool" out_port_id="0"/>
+		<IR id="57" name="inception_v3/average_pooling2d_3/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_45/Relu" out_port_id="0"/>
+		<IR id="102" name="inception_v3/activation_45/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_76/Relu" out_port_id="0"/>
+		<IR id="170" name="inception_v3/activation_76/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_62/Relu" out_port_id="0"/>
+		<IR id="140" name="inception_v3/activation_62/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_35/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="79" name="inception_v3/conv2d_35/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="dense_1/BiasAdd" out_port_id="0"/>
+		<IR id="222" name="dense_1/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_83/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="186" name="inception_v3/conv2d_83/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed2/concat" out_port_id="0"/>
+		<IR id="60" name="inception_v3/mixed2/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="dense_2/Softmax" out_port_id="0"/>
+		<IR id="225" name="dense_2/Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_72/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="161" name="inception_v3/conv2d_72/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_22/Relu" out_port_id="0"/>
+		<IR id="50" name="inception_v3/activation_22/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_79/Relu" out_port_id="0"/>
+		<IR id="178" name="inception_v3/activation_79/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed9/concat" out_port_id="0"/>
+		<IR id="194" name="inception_v3/mixed9/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_85/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="192" name="inception_v3/conv2d_85/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_86/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="195" name="inception_v3/conv2d_86/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_89/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="201" name="inception_v3/conv2d_89/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_22/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="49" name="inception_v3/conv2d_22/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_50/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="112" name="inception_v3/conv2d_50/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_5/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="10" name="inception_v3/conv2d_5/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_43/Relu" out_port_id="0"/>
+		<IR id="98" name="inception_v3/activation_43/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_74/Relu" out_port_id="0"/>
+		<IR id="166" name="inception_v3/activation_74/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_30/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="67" name="inception_v3/conv2d_30/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_83/Relu" out_port_id="0"/>
+		<IR id="187" name="inception_v3/activation_83/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_80/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="179" name="inception_v3/conv2d_80/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_87/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="197" name="inception_v3/conv2d_87/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_61/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="137" name="inception_v3/conv2d_61/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_5/AvgPool" out_port_id="0"/>
+		<IR id="111" name="inception_v3/average_pooling2d_5/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_28/Relu" out_port_id="0"/>
+		<IR id="64" name="inception_v3/activation_28/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/concatenate_2/concat" out_port_id="0"/>
+		<IR id="212" name="inception_v3/concatenate_2/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_6/Relu" out_port_id="0"/>
+		<IR id="14" name="inception_v3/activation_6/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_48/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="107" name="inception_v3/conv2d_48/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_7/AvgPool" out_port_id="0"/>
+		<IR id="155" name="inception_v3/average_pooling2d_7/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed6/concat" out_port_id="0"/>
+		<IR id="136" name="inception_v3/mixed6/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed7/concat" out_port_id="0"/>
+		<IR id="158" name="inception_v3/mixed7/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="inception_v3/max_pooling2d_3/MaxPool" out_port_id="0"/>
+		<IR id="69" name="inception_v3/max_pooling2d_3/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/max_pooling2d_4/MaxPool" out_port_id="0"/>
+		<IR id="171" name="inception_v3/max_pooling2d_4/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_10/Relu" out_port_id="0"/>
+		<IR id="22" name="inception_v3/activation_10/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_26/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="58" name="inception_v3/conv2d_26/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_1/Relu" out_port_id="0"/>
+		<IR id="2" name="inception_v3/activation_1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_29/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="65" name="inception_v3/conv2d_29/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_41/Relu" out_port_id="0"/>
+		<IR id="94" name="inception_v3/activation_41/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_18/Relu" out_port_id="0"/>
+		<IR id="40" name="inception_v3/activation_18/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_68/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="151" name="inception_v3/conv2d_68/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_62/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="139" name="inception_v3/conv2d_62/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_51/Relu" out_port_id="0"/>
+		<IR id="116" name="inception_v3/activation_51/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_31/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="71" name="inception_v3/conv2d_31/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_1/AvgPool" out_port_id="0"/>
+		<IR id="25" name="inception_v3/average_pooling2d_1/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_59/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="131" name="inception_v3/conv2d_59/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_70/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="156" name="inception_v3/conv2d_70/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_57/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="127" name="inception_v3/conv2d_57/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_27/Relu" out_port_id="0"/>
+		<IR id="62" name="inception_v3/activation_27/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_40/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="90" name="inception_v3/conv2d_40/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_67/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="149" name="inception_v3/conv2d_67/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_2/Relu" out_port_id="0"/>
+		<IR id="4" name="inception_v3/activation_2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_41/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="93" name="inception_v3/conv2d_41/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_42/Relu" out_port_id="0"/>
+		<IR id="96" name="inception_v3/activation_42/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_90/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="204" name="inception_v3/conv2d_90/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_77/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="173" name="inception_v3/conv2d_77/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_46/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="103" name="inception_v3/conv2d_46/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_94/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="214" name="inception_v3/conv2d_94/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/concatenate_1/concat" out_port_id="0"/>
+		<IR id="190" name="inception_v3/concatenate_1/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_90/Relu" out_port_id="0"/>
+		<IR id="205" name="inception_v3/activation_90/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_63/Relu" out_port_id="0"/>
+		<IR id="142" name="inception_v3/activation_63/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_48/Relu" out_port_id="0"/>
+		<IR id="108" name="inception_v3/activation_48/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_46/Relu" out_port_id="0"/>
+		<IR id="104" name="inception_v3/activation_46/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_24/Relu" out_port_id="0"/>
+		<IR id="54" name="inception_v3/activation_24/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_47/Relu" out_port_id="0"/>
+		<IR id="106" name="inception_v3/activation_47/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_91/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="206" name="inception_v3/conv2d_91/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_31/Relu" out_port_id="0"/>
+		<IR id="72" name="inception_v3/activation_31/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/average_pooling2d_4/AvgPool" out_port_id="0"/>
+		<IR id="89" name="inception_v3/average_pooling2d_4/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_37/Relu" out_port_id="0"/>
+		<IR id="84" name="inception_v3/activation_37/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_65/Relu" out_port_id="0"/>
+		<IR id="146" name="inception_v3/activation_65/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_23/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="51" name="inception_v3/conv2d_23/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_39/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="87" name="inception_v3/conv2d_39/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_35/Relu" out_port_id="0"/>
+		<IR id="80" name="inception_v3/activation_35/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_32/Relu" out_port_id="0"/>
+		<IR id="74" name="inception_v3/activation_32/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_24/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="53" name="inception_v3/conv2d_24/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_17/Relu" out_port_id="0"/>
+		<IR id="38" name="inception_v3/activation_17/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed0/concat" out_port_id="0"/>
+		<IR id="28" name="inception_v3/mixed0/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_64/Relu" out_port_id="0"/>
+		<IR id="144" name="inception_v3/activation_64/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_11/Relu" out_port_id="0"/>
+		<IR id="24" name="inception_v3/activation_11/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_82/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="184" name="inception_v3/conv2d_82/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/activation_57/Relu" out_port_id="0"/>
+		<IR id="128" name="inception_v3/activation_57/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="inception_v3/batch_normalization_42/FusedBatchNorm_1" out_port_id="0"/>
+		<IR id="95" name="inception_v3/conv2d_42/convolution" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="inception_v3/mixed8/concat" out_port_id="0"/>
+		<IR id="172" name="inception_v3/mixed8/concat" out_port_id="3"/>
+	</map>
+</mapping>
