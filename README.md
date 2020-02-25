@@ -117,4 +117,7 @@ os
 time
 glob
 ```
-
+## How to run
+From your workspace environment, run the following command.
+**To run organic/recycle application**
+'''
