@@ -74,6 +74,6 @@ The train and validation split is 90:1. After that, the base model is InceptionV
 
 
 | Accuracy   | Loss   | Validation Accuracy| Validation Loss |
-| -----------|:------:|:-----:|------: |
-| 0.8226     | 0.5107 | 0.6941 | 0.6847      |
+| -----------|:------:|:-----|:------ |
+| 0.8226     | 0.5107 | 0.6941 | 0.6847 |
 
