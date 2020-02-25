@@ -129,5 +129,5 @@ python trashclass.py -m Six Type Classification/tf_classification_model.xml -i p
 **To run organic/recyclable application**
 
 ```python
-python organic.py -m Six Type Classification/tf_model.xml -i project.mp4 | ffmpeg -v warning -f rawvideo -pixel_format bgr24 -video_size 224x224 -i - http://52.90.89.176:8082/fac2.ffm -framerate 24
+python organic.py -m Organic-Recyclable/tf_model.xml -i project.mp4 | ffmpeg -v warning -f rawvideo -pixel_format bgr24 -video_size 224x224 -i - http://52.90.89.176:8082/fac2.ffm -framerate 24
 ```
