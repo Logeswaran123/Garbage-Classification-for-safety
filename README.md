@@ -40,6 +40,9 @@ for i in gender:
 The model used here is a reduced version on VGG network with height=96, width=96, depth=3 and class=2 (organic/recyclable). 
 
 Find the model in [model_O_R](https://github.com/Logeswaran123/Garbage-Classification-for-safety/tree/master/model_O_R) directory.
+| Train Accuracy   | Train Loss   | Validation Accuracy| Validation Loss |
+| -----------|:------:|:-----|:------ |
+| 0.92     | 0.23 | 0.900 | 0.248 |
 
 ### Model 2 (Six type classification)
 
@@ -73,7 +76,7 @@ valid_generator = test.flow_from_directory(dir_path,
 The train and validation split is 90:1. After that, the base model is InceptionV3 with pretrained weights. From this weights, current classification model is trained. Due to low number of train images the Accuracy of the model is low.
 
 
-| Accuracy   | Loss   | Validation Accuracy| Validation Loss |
+| Train Accuracy   | Train Loss   | Validation Accuracy| Validation Loss |
 | -----------|:------:|:-----|:------ |
 | 0.8226     | 0.5107 | 0.6941 | 0.6847 |
 
