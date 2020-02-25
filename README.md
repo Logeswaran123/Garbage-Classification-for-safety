@@ -99,3 +99,19 @@ Requirements based on [OpenVino toolkit](https://docs.openvinotoolkit.org/latest
 * Intel® Vision Accelerator Design with Intel® Movidius™ VPUs
 
 Refer the [Link](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_windows.html) for detailed installation.
+
+### Packages/Libraries
+
+Make sure the following list are installed for easier running of application.
+'''
+keras
+tensorflow
+OpenCV
+pickle
+matplotlib
+itertools
+sklearn
+random
+os 
+glob
+'''
