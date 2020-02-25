@@ -35,3 +35,5 @@ for i in gender:
     else:
         classes.append(1)
 ```
+**Model description**
+The model used here is a reduced version on VGG network with height=96, width=96, depth=3 and class=2 (organic/recyclable). 
