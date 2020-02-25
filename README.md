@@ -44,3 +44,28 @@ Find the model in [model_O_R](https://github.com/Logeswaran123/Garbage-Classific
 ### Model 2 (Six type classification)
 
 The **Second model** is a six type garbage classification model. The different classes into which the input image is classified are 1. Cardboard 2. Glass 3. Metal 4. Paper 5. Plastic 6. Trash.
+
+**Dataset:** The dataset for this model can be found in [Link](https://www.kaggle.com/asdasdasasdas/garbage-classification).
+
+In this, the ImageDataGenerator keras.preprocessing.image is used to create the train set and validation set.
+
+```python
+train = ImageDataGenerator(horizontal_flip = True, vertical_flip = True,
+                         validation_split = 0.1, rescale = 1./255,
+                         shear_range = 0.2, zoom_range = 0.2,
+                         width_shift_range = 0.1, height_shift_range = 0.1,)
+
+test = ImageDataGenerator(rescale = 1/255, validation_split = 0.1)
+
+train_generator = train.flow_from_directory(dir_path,
+                                          target_size = (300,300),
+                                          batch_size = 32,
+                                          class_mode = 'categorical',
+                                          subset = 'training')
+
+valid_generator = test.flow_from_directory(dir_path,
+                                        target_size = (300,300),
+                                        batch_size = 32,
+                                        class_mode = 'categorical',
+                                        subset = 'validation')
+```
