@@ -40,3 +40,7 @@ for i in gender:
 The model used here is a reduced version on VGG network with height=96, width=96, depth=3 and class=2 (organic/recyclable). 
 
 Find the model in [model_O_R](https://github.com/Logeswaran123/Garbage-Classification-for-safety/tree/master/model_O_R) directory.
+
+### Model 2 (Six type classification)
+
+The **Second model** is a six type garbage classification model. The different classes into which the input image is classified are 1. Cardboard 2. Glass 3. Metal 4. Paper 5. Plastic 6. Trash.
