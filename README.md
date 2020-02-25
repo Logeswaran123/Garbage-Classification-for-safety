@@ -102,7 +102,7 @@ Refer the [Link](https://docs.openvinotoolkit.org/latest/_docs_install_guides_in
 
 ### Packages/Libraries
 
-Make sure the following list are installed for easier running of application.
+Make sure the following list are installed for easier running of application. Latest updated version required.
 
 ```
 keras
