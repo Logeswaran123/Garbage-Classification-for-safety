@@ -125,6 +125,7 @@ From your workspace environment, run the following command.
 ```python
 python trashclass.py -m Six Type Classification/tf_classification_model.xml -i project_trash.mp4 | ffmpeg -v warning -f rawvideo -pixel_format bgr24 -video_size 512x384 -i - http://52.90.89.176:8082/fac2.ffm -framerate 24
 ```
+**Example**
 
 ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/example1.png "cmd example")
 
@@ -133,6 +134,7 @@ python trashclass.py -m Six Type Classification/tf_classification_model.xml -i p
 ```python
 python organic.py -m Organic-Recyclable/tf_model.xml -i project.mp4 | ffmpeg -v warning -f rawvideo -pixel_format bgr24 -video_size 224x224 -i - http://52.90.89.176:8082/fac2.ffm -framerate 24
 ```
+**Example**
 
 ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/example2.png "cmd example")
 
