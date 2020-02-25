@@ -140,6 +140,8 @@ python organic.py -m Organic-Recyclable/tf_model.xml -i project.mp4 | ffmpeg -v 
 
 Note: Specify the correct path to the files beforing running the app.
 
+**Web Page:** [Link](http://52.90.89.176:1880/ui/#!/0?socketid=yvyjSCI4CHhhg41oAAAA)
+
 ## Demo Output
 
 ### For Organic/Recyclable
