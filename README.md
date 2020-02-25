@@ -9,4 +9,4 @@ So, I researched and found out that most of the garbages are either cleaned by h
 
 This is the motivation behind the project, an humble but effective idea to segregate trash by different categories and thus reduce manpower and effects on environment and save up money by recycling.
 
-![alt text](http://cmsw.co.in/images/gallery/large/CmswB08.jpg "Garbage Truck image-CMSW")
+![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/garbage.jpg "Garbage disposal zone")
