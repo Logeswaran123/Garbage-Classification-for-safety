@@ -139,3 +139,15 @@ python organic.py -m Organic-Recyclable/tf_model.xml -i project.mp4 | ffmpeg -v 
 ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/example2.png "cmd example")
 
 Note: Specify the correct path to the files beforing running the app.
+
+## Demo Output
+
+### For Organic/Recyclable
+
+![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/out1.png "organic")
+
+![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/out2.png "recyclable")
+
+### For Classification
+
+![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/out3.png "plastic")
