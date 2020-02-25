@@ -104,7 +104,7 @@ Refer the [Link](https://docs.openvinotoolkit.org/latest/_docs_install_guides_in
 
 Make sure the following list are installed for easier running of application.
 
-'''
+```
 keras
 tensorflow
 OpenCV
@@ -115,4 +115,5 @@ sklearn
 random
 os 
 glob
-'''
+```
+
