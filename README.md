@@ -120,8 +120,14 @@ glob
 ## How to run
 From your workspace environment, run the following command.
 
-**To run organic/recycle application**
+**To run trash classification application**
 
+```python
+python trashclass.py -m Six Type Classification/tf_classification_model.xml -i project_trash.mp4 | ffmpeg -v warning -f rawvideo -pixel_format bgr24 -video_size 512x384 -i - http://52.90.89.176:8082/fac2.ffm -framerate 24
 ```
-python trashclass.py -m /
+
+**To run organic/recyclable application**
+
+```python
+python organic.py -m Six Type Classification/tf_model.xml -i project.mp4 | ffmpeg -v warning -f rawvideo -pixel_format bgr24 -video_size 224x224 -i - http://52.90.89.176:8082/fac2.ffm -framerate 24
 ```
