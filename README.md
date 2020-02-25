@@ -73,7 +73,7 @@ valid_generator = test.flow_from_directory(dir_path,
 The train and validation split is 90:1. After that, the base model is InceptionV3 with pretrained weights. From this weights, current classification model is trained. Due to low number of train images the Accuracy of the model is low.
 
 
-| Accuracy        | Loss           | Validation Accuracy  |  Validation Loss     |
-| ------------- |:-------------:| -----:|------ |
+| Accuracy   | Loss   | Validation Accuracy| Validation Loss |
+| -----------|:------:|:-----:|------: |
 | 0.8226     | 0.5107 | 0.6941 | 0.6847      |
 
