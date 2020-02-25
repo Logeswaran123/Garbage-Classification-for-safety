@@ -84,3 +84,18 @@ The train and validation split is 90:1. After that, the base model is InceptionV
 
 ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/plot2.JPG "history plot")
 
+## Prerequisites
+
+### Hardware
+
+Requirements based on [OpenVino toolkit](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_windows.html).
+
+* 6th-10th Generation Intel® Core™ processors
+* Intel® Xeon® v5 family
+* Intel® Xeon® v6 family
+* Intel® Pentium® processor N4200/5, N3350/5, N3450/5 with Intel® HD Graphics
+* Intel® Movidius™ Neural Compute Stick
+* Intel® Neural Compute Stick 2
+* Intel® Vision Accelerator Design with Intel® Movidius™ VPUs
+
+Refer the [Link](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_windows.html) for detailed installation.
