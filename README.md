@@ -44,6 +44,8 @@ Find the model in [model_O_R](https://github.com/Logeswaran123/Garbage-Classific
 | -----------|:------:|:-----|:------ |
 | 0.92     | 0.23 | 0.900 | 0.248 |
 
+![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/plot.JPG "history plot")
+
 ### Model 2 (Six type classification)
 
 The **Second model** is a six type garbage classification model. The different classes into which the input image is classified are 1. Cardboard 2. Glass 3. Metal 4. Paper 5. Plastic 6. Trash.
