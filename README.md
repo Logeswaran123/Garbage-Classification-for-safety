@@ -22,6 +22,7 @@ The project consists of two models with each of its own purpose.
 The **First model** is Organic/Recyclable classification model. The objective of the model is to classify the trash in the image into organic or recyclable. 
 
 **Dataset:** The dataset for this model can be found in [Link](https://www.kaggle.com/techsash/waste-classification-data).
+
 **Preprocessing:**
 1. Take all images from train and test directory and put in a single directory.
 2. Create a list for the organic/recyclable class corresponding to the image by splitting at '\_' and appending only first element which can be 'O' or 'R'.
