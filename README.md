@@ -153,3 +153,12 @@ Note: Specify the correct path to the files beforing running the app.
 ### For Classification
 
 ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/out3.png "plastic")
+
+**Project team**
+* [Logeswaran Sivakumar](https://github.com/Logeswaran123)
+* [Akash Singh](https://github.com/Akash4097)
+* [Joagovi](https://github.com/joagovi)
+
+Project created as a part of the Udacity OpenVino Scholarship for the showcase.
+
+Happy Learning! :-)
