@@ -159,6 +159,6 @@ Note: Specify the correct path to the files beforing running the app.
 * [Akash Singh](https://github.com/Akash4097)
 * [Joagovi](https://github.com/joagovi)
 
-Project created as a part of the Udacity OpenVino Scholarship for the showcase [OpenVino Udacity](https://www.udacity.com/scholarships/intel-edge-ai-scholarship)
+Project created as a part of the Udacity OpenVino Scholarship for the showcase [OpenVino Udacity](https://www.udacity.com/scholarships/intel-edge-ai-scholarship).
 
 Happy Learning! :-)
