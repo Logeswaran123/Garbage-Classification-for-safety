@@ -113,7 +113,8 @@ matplotlib
 itertools
 sklearn
 random
-os 
+os
+time
 glob
 ```
 
