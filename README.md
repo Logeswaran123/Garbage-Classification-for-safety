@@ -175,15 +175,15 @@ Where .node-red is the folder that contains the application files
 
   Select any of the subscribers and then edit the server with the ip of the localhost. Replace 52.90.89.156 by 127.0.0.1.
 
-  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/edit_broker.png "history plot")
+  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/edit_broker.png "select broker")
 
-  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/edit_broker_2.png"history plot")
+  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/edit_broker_2.png "edit broker")
 
   Finally change the source ip of the template to localhost (127.0.0.1)
 
-  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/template.png "history plot")
+  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/template.png "select template")
 
-  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/edit_template.png "history plot")
+  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/edit_template.png "edit template")
 
 
 ## FFmpeg service
