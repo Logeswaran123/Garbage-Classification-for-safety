@@ -162,12 +162,12 @@ To enter the dashboard enter the url 127.0.0.1:1880/ or localhost:1880/ in the w
 
 ***Start Node-RED with the pre-existing file***
 
-  1. Use the **.node-red** folder: ```python cd <PATH>/.node-red/  ```
+  1. Use the **.node-red** folder: ``` cd <PATH>/.node-red/ ```
 Where .node-red is the folder that contains the application files
 
   2. Start Node-RED with the file containing the flows:
 
-    ```python sudo node-red flows_ip-172-31-87-186.json```
+    ``` sudo node-red flows_ip-172-31-87-186.json ```
 
 **Configuring node-red flow**
 
@@ -199,9 +199,9 @@ sudo apt install ffmpeg
 
 The server.conf file contains the information where the video is fed: fac.ffm and also this file contain in which url the video is played: facstream.mjpeg. In addition other details such as allowed IP addresses or video size: VideoSize.
 
-**Start the FFmpeg service with the configuration file**
+**Start the FFmpeg service with a configuration file**
 
-```python sudo ffserver -f ffmpeg/server.conf ```
+``` sudo ffserver -f ffmpeg/server.conf ```
 
 
 ## How to run
