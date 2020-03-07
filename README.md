@@ -201,8 +201,9 @@ The server.conf file contains the information where the video is fed: fac.ffm an
 
 **Start the FFmpeg service with a configuration file**
 
-``` sudo ffserver -f ffmpeg/server.conf ```
-
+```
+python sudo ffserver -f ffmpeg/server.conf
+```
 
 ## How to run
 From your workspace environment, run the following command.
