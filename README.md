@@ -149,10 +149,10 @@ To enter the dashboard enter the url 127.0.0.1:1880/ or localhost:1880/ in the w
   ![alt text](https://github.com/joagovi/Garbage-Classification-for-safety/blob/master/pictures/menu_node.png "menu node-red")
 
 1. Enter to the main menu of node-red.
-2. Select "Manage palette"
-3. Select "Install"
-4. Enter **"node-red-dashboard"** in the search field
-5. Click on the **"install"** button
+2. Select "Manage palette".
+3. Select "Install".
+4. Enter **"node-red-dashboard"** in the search field.
+5. Click on the **"install"** button.
 6. When the installation is finished, click "Done."
 7. Press F5 to reload.
 8. You will find the **"Dashboard"** button on the right side.
@@ -163,7 +163,7 @@ To enter the dashboard enter the url 127.0.0.1:1880/ or localhost:1880/ in the w
 **Start Node-RED with a pre-existing file**
 
   1. Use the **.node-red** folder: ``` cd <PATH>/.node-red/ ```
-Where .node-red is the folder that contains the application files
+Where .node-red is the folder that contains the application files.
 
   2. Start Node-RED with the file containing the flows:```sudo node-red flows_ip-172-31-87-186.json```
 
