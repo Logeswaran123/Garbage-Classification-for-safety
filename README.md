@@ -124,23 +124,20 @@ glob
 
 - ***Install the latest version of node.js***
 
-  ```python
-sudo apt-get install nodejs
-```
+  ``` python sudo apt-get install nodejs ```
+
 - ***Install npm***
 
-  ```python
-sudo apt-get install npm
-```
+  ```python sudo apt-get install npm ```
+
 - ***Install Node-RED with npm***
-```python
-sudo npm install -g --unsafe-perm node-red
-```
+ 
+  ```python sudo npm install -g --unsafe-perm node-red```
 
 - ***Start the Node-RED service***
- ```python
- sudo node-red
- ```
+  
+  ```python sudo node-red ```
+
 The server starts running on port 1880.
 To enter the dashboard enter the url 127.0.0.1:1880/ or localhost:1880/ in the web browser.
 
@@ -170,8 +167,7 @@ Where .node-red is the folder that contains the application files
 
   2. Start Node-RED with the file containing the flows:
 
-    ```python sudo node-red flows_ip-172-31-87-186.json
-```
+    ```python sudo node-red flows_ip-172-31-87-186.json```
 
 **Configuring node-red flow**
 
