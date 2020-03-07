@@ -165,11 +165,7 @@ To enter the dashboard enter the url 127.0.0.1:1880/ or localhost:1880/ in the w
   1. Use the **.node-red** folder: ``` cd <PATH>/.node-red/ ```
 Where .node-red is the folder that contains the application files
 
-  2. Start Node-RED with the file containing the flows:
-
-    ```python
-    sudo node-red flows_ip-172-31-87-186.json
-    ```
+  2. Start Node-RED with the file containing the flows:```python sudo node-red flows_ip-172-31-87-186.json```
 
 **Configuring node-red flow**
 
