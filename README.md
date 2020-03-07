@@ -160,7 +160,7 @@ To enter the dashboard enter the url 127.0.0.1:1880/ or localhost:1880/ in the w
 
 - **Similarly install the Aedes broker node: “node-red-contrib-aedes”**
 
-***Start Node-RED with the pre-existing file***
+**Start Node-RED with a pre-existing file**
 
   1. Use the **.node-red** folder: ``` cd <PATH>/.node-red/ ```
 Where .node-red is the folder that contains the application files
