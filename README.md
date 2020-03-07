@@ -149,7 +149,7 @@ To enter the dashboard enter the url 127.0.0.1:1880/ or localhost:1880/ in the w
 
   - ***Using the Node Red GUI:***
 
-  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/menu_node.png "history plot")
+  ![alt text](https://github.com/Logeswaran123/Garbage-Classification-for-safety/blob/master/pictures/menu_node.png "menu node-red")
 
 1. Enter to the main menu of node-red.
 2. Select "Manage palette"
@@ -194,7 +194,7 @@ Where .node-red is the folder that contains the application files
 
 **Install the FFmpeg service**
 
-```
+``` python
 sudo apt update
 sudo apt install ffmpeg
 ```
