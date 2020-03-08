@@ -1,5 +1,5 @@
 # Garbage-Classification-for-safety
- 
+
 ## Motivation
 The motivation started by walking down my street abd seeing a huge garbage bin at the corner where all the houses in the street would dump their daily garbage. People would not try to seperate the recyclable and organic wastes but throw every type of trash together.
 
@@ -19,7 +19,7 @@ The project consists of two models with each of its own purpose.
 
 ### Model 1 (Organic/Recyclable)
 
-The **First model** is Organic/Recyclable classification model. The objective of the model is to classify the trash in the image into organic or recyclable. 
+The **First model** is Organic/Recyclable classification model. The objective of the model is to classify the trash in the image into organic or recyclable.
 
 **Dataset:** The dataset for this model can be found in [Link](https://www.kaggle.com/techsash/waste-classification-data).
 
@@ -37,7 +37,7 @@ for i in gender:
 ```
 **Model description:**
 
-The model used here is a reduced version on VGG network with height=96, width=96, depth=3 and class=2 (organic/recyclable). 
+The model used here is a reduced version on VGG network with height=96, width=96, depth=3 and class=2 (organic/recyclable).
 
 Find the model in [model_O_R](https://github.com/Logeswaran123/Garbage-Classification-for-safety/tree/master/model_O_R) directory.
 | Train Accuracy   | Train Loss   | Validation Accuracy| Validation Loss |
@@ -117,6 +117,92 @@ os
 time
 glob
 ```
+
+## Installing a WEB server, a MQTT broker and a Dashboard
+
+**Installing Node-RED**
+
+- ***Install the latest version of node.js***
+
+  ``` python sudo apt-get install nodejs ```
+
+- ***Install npm***
+
+  ```python sudo apt-get install npm ```
+
+- ***Install Node-RED with npm***
+ 
+  ```python sudo npm install -g --unsafe-perm node-red```
+
+- ***Start the Node-RED service***
+  
+  ```python sudo node-red ```
+
+The server starts running on port 1880.
+To enter the dashboard enter the url 127.0.0.1:1880/ or localhost:1880/ in the web browser.
+
+
+**Install the Aedes broker and the Dashboard**
+
+  - ***Using the Node Red GUI:***
+
+  ![alt text](https://github.com/joagovi/Garbage-Classification-for-safety/blob/master/pictures/menu_node.png "menu node-red")
+
+1. Enter to the main menu of node-red.
+2. Select "Manage palette".
+3. Select "Install".
+4. Enter **"node-red-dashboard"** in the search field.
+5. Click on the **"install"** button.
+6. When the installation is finished, click "Done."
+7. Press F5 to reload.
+8. You will find the **"Dashboard"** button on the right side.
+
+
+- **Similarly install the Aedes broker node: “node-red-contrib-aedes”**
+
+**Start Node-RED with a pre-existing file**
+
+  1. Use the **.node-red** folder: ``` cd <PATH>/.node-red/ ```
+Where .node-red is the folder that contains the application files.
+
+  2. Start Node-RED with the file containing the flows:```sudo node-red flows_ip-172-31-87-186.json```
+
+**Configuring node-red flow**
+
+- ***Set up the Broker***
+
+  Select any of the subscribers and then edit the server with the ip of the localhost. Replace 52.90.89.156 by 127.0.0.1.
+
+  ![alt text](https://github.com/joagovi/Garbage-Classification-for-safety/blob/master/pictures/edit_broker.png "select broker")
+
+  ![alt text](https://github.com/joagovi/Garbage-Classification-for-safety/blob/master/pictures/edit_broker_2.png "edit broker")
+
+  Finally change the source ip of the template to localhost (127.0.0.1)
+
+  ![alt text](https://github.com/joagovi/Garbage-Classification-for-safety/blob/master/pictures/template.png "select template")
+
+  ![alt text](https://github.com/joagovi/Garbage-Classification-for-safety/blob/master/pictures/edit_template.png "edit template")
+
+
+## FFmpeg service
+
+**Install the FFmpeg service**
+
+``` python
+sudo apt update
+sudo apt install ffmpeg
+```
+
+**Starting the FFmpeg service**
+
+The server.conf file contains the information where the video is fed: fac.ffm and also this file contain in which url the video is played: facstream.mjpeg. In addition other details such as allowed IP addresses or video size: VideoSize.
+
+**Start the FFmpeg service with a configuration file**
+
+```
+python sudo ffserver -f ffmpeg/server.conf
+```
+
 ## How to run
 From your workspace environment, run the following command.
 
